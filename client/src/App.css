@@ -1,0 +1,13 @@
+html {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  background-color: lightgray;
+  font-family: 'Roboto', sans-serif;
+  overflow: auto;
+  margin: 0;
+}

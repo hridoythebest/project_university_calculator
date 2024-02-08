@@ -1,0 +1,35 @@
+{
+  "name": "university-calculator",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://kalkulatorzamaturu.com",
+  "dependencies": {
+    "@material-ui/core": "^3.0.2",
+    "axios": "^0.18.0",
+    "babel-eslint": "^9.0.0",
+    "chart.js": "^2.7.2",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "file-saver": "^2.0.0",
+    "gh-pages": "^1.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-chartkick": "^0.3.0",
+    "react-device-detect": "^1.5.9",
+    "react-dom": "^16.4.2",
+    "react-material-ui-form-validator": "^2.0.1",
+    "react-scripts": "1.1.5",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
